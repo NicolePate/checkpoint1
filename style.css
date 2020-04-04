@@ -189,8 +189,14 @@ color: #252525;
      background-color: #252525;
      color: white;
      font-size: 25px;
-     padding: 5px 15px 5px;
+     padding:5px 15px 5px; 
      margin: 10px 15px;
      font-family: poller_oneregular;
      font-weight: 900;
  }
+
+ .gallery{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto;
+  }
