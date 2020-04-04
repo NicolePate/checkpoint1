@@ -1,6 +1,22 @@
+body {
+    background: #fff;
+    margin: 0;
+    min-width: 960px;
+    padding: 0;
+}
+
 #logo {
     display: flex;
     justify-content: center;
+}
+img {display: table-cell; 
+    text-align: center;
+    border: 1px solid;
+    color: black;
+}
+.logo {
+    color: white;
+
 }
 ul {
     width: auto;
@@ -151,3 +167,30 @@ button {
     padding: 5px;
     border-width: 3px;
   }
+ 
+  #body {
+      display: flex;
+      flex-direction: column;
+      margin: 0% 30% ;
+      width: 40%;
+      text-align: center  
+  }
+#body h1 {
+font-size: 13px;
+font-size: bold;
+color: #252525;
+
+}
+ #body p {
+    font-size: 10px;
+    color: #252525;
+}
+ #body span {
+     background-color: #252525;
+     color: white;
+     font-size: 25px;
+     padding: 5px 15px 5px;
+     margin: 10px 15px;
+     font-family: poller_oneregular;
+     font-weight: 900;
+ }
